@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+
+    <!-- Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/purple.css">
+
+    <!-- Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Slider CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Mis Scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js" integrity="sha512-LuGmbdo8yp73d1NZGukmifQL95L0BsuHywcuFHWGuW6hlMLCatli+6BeJNoERdDo9HFL5W5/g8sIqjOV7ZzxoA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js" integrity="sha512-xYPNx9d56p2KeUQEbdiKytlfxpIRXPnEY2bX7tNZ3rLoNM9UKf1yF/2zr89LsfRnf5T3ChxAt2M7JYFDX41LZQ==" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <div id="selector-theme">
+        <img id="to-purple" src="fonts/POKEMON/094 Gengar.ico">
+        <img id="to-blue" src="fonts/POKEMON/007 Squirtle.ico">
+        <img id="to-green" src="fonts/POKEMON/001 Bulbasaur.ico">
+        <img id="to-orange" src="fonts/POKEMON/004 Charmander.ico">
+
+    </div>
+
+    <section id="global"> 
+        <header>
+            <div id="logo">
+                <a href="index.html"><img  src="img/OIP.jpg"  alt="logo" id="logo"></a>
+                
+            </div>
+
+            <div class="clearfix"></div>
+
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="reloj.html">Reloj</a></li>
+                        <li><a href="about.html">Acerca de Pokemon's</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <div id="slider">
+            <div class="galeria">
+                <div><img src="img/49.jpg" title=""></div>
+                <div><img src="img/25.jpg" title=""></div>
+                <div><img src="img/27.jpg" title=""></div>
+                <div><img src="img/19.jpg" title=""></div>
+                <div><img src="img/26.jpg" title=""></div>
+                <div><img src="img/23.jpg" title=""></div>
+            </div>
+        </div>
+
+        <section id="content">
+            <div id="posts">
+              
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span> Quien es ese pokemon?</span></h4>
+                    <img src="img/descarga.jpg" alt="Psydut">
+                    <p>Suspendisse commodo commodo enim. Aenean rhoncus condimentum elit. Sed sagittis lacus in finibus pulvinar. Aenean ex massa, hendrerit sed viverra eget, pharetra id elit.</p>
+                </div>
+
+                <div id="login">
+                    <h4><span> Identificate</span></h4>
+                    <form>
+                        <label for="name">
+                            Nombre
+                        </label>
+                        <input type="text" name="name" id="form_name" />
+
+                        <label for="email">
+                            Correo
+                        </label>
+                        <input type="text" name="email" id="form_email"/>
+
+                        <label for="password">
+                            Contraseña
+                        </label>
+                        <input type="password" name="password" id="form_password"/>
+                        <input type="submit" value="Entrar" />
+
+                    </form>
+                
+                </div>
+
+            </aside>
+
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer>
+        <a href="#" class="subir">Ir arriba</a>
+        <p class="autor">Derechos reservados Ing. Jose Narea</p>
+    </footer>
+</body>
+</html>

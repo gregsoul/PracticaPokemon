@@ -1,0 +1,30 @@
+body{
+    background: url("../img/gengar.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#menu{
+
+    background: mediumpurple; 
+    background: -moz-linear-gradient(top,   mediumpurple 0%,  mediumpurple 50%,  mediumpurple 51%,  mediumpurple 100%); 
+    background: -webkit-linear-gradient(top,   mediumpurple 0%, mediumpurple 50%, mediumpurple 51%, mediumpurple 100%); 
+    background: linear-gradient(to bottom,   mediumpurple 0%, mediumpurple 50%, mediumpurple 51%, mediumpurple 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='mediumpurple', endColorstr=' mediumpurple',GradientType=0 );
+    
+
+}
+
+#menu ul li:hover{
+
+    background:  rebeccapurple;
+    background: -moz-linear-gradient(-45deg,  rebeccapurple 0%, rebeccapurple 100%); 
+    background: -webkit-linear-gradient(-45deg,   rebeccapurple 0%, rebeccapurple 100%); 
+    background: linear-gradient(135deg,   rebeccapurple 0%, rebeccapurple 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' rebeccapurple', endColorstr=' rebeccapurple',GradientType=1 ); 
+}
+
+.boton-more{
+ 
+    background: mediumpurple;
+}

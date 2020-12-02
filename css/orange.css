@@ -1,0 +1,30 @@
+body{
+    background: url("../img/Charmander.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#menu{
+
+    background: #FF8C00; 
+    background: -moz-linear-gradient(top,   #FF8C00 0%,  #FF8C00 50%,  #FF8C00 51%,  #FF8C00 100%); 
+    background: -webkit-linear-gradient(top,   #FF8C00 0%, #FF8C00 50%, #FF8C00 51%, #FF8C00 100%); 
+    background: linear-gradient(to bottom,   #FF8C00 0%, #FF8C00 50%, #FF8C00 51%, #FF8C00 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8C00', endColorstr=' #FF8C00',GradientType=0 );
+    
+
+}
+
+#menu ul li:hover{
+
+    background:  #FF6347;
+    background: -moz-linear-gradient(-45deg,  #FF6347 0%, #FF6347 100%); 
+    background: -webkit-linear-gradient(-45deg,   #FF6347 0%, #FF6347 100%); 
+    background: linear-gradient(135deg,   #FF6347 0%, #FF6347 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #FF6347', endColorstr=' #FF6347',GradientType=1 ); 
+}
+
+.boton-more{
+ 
+    background: #FF8C00;
+}
